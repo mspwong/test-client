@@ -1,7 +1,7 @@
 TestClient::Application.routes.draw do
 
-  get 'test-hash', to: 'default#test_hash'
+  get 'via-net', to: 'default#post_hash_via_net'
 
-  get 'test-faraday', to: 'default#test_faraday'
+  get 'via-faraday', to: 'default#post_hash_via_faraday'
 
 end
